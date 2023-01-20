@@ -12,7 +12,7 @@ func main() {
 	//求长度
 	fmt.Printf("len(s): %v\n", len(s))
 
-	// 分割
+	//分割
 	fmt.Printf("strings.Split(s, \"\"): %v\n", strings.Split(s, " "))
 
 	// 字符串是否包含
