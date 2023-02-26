@@ -7,13 +7,13 @@ import (
 
 // strings常用方法:
 func main() {
-	s := "hello world！"
+	s := "hello,world！"
 
 	//求长度
 	fmt.Printf("len(s): %v\n", len(s))
 
 	//分割
-	fmt.Printf("strings.Split(s, \"\"): %v\n", strings.Split(s, " "))
+	fmt.Printf("strings.Split(s, \"\"): %v\n", strings.Split(s, ","))
 
 	// 字符串是否包含
 	fmt.Printf("strings.Contains(s, \"hello\"): %v\n", strings.Contains(s, "hello"))

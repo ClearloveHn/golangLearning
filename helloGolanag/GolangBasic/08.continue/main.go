@@ -6,6 +6,7 @@ import "fmt"
 continue的作用:
 1.continue的作用是结束本次循环，即跳过循环体中下面尚未执行的语句，然后进行下一次是否执行循环的判定。
 2.continue只能在for循环中使用
+3.在continue语句后添加标签时，表示开始标签对应的循环。
 */
 
 func main() {
